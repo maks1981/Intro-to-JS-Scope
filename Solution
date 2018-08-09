@@ -1,0 +1,15 @@
+// Intro to JS Scope
+// Scope is the context that code is executed in
+
+function doMath(){
+	var x = 40;
+	console.log(x);
+}
+// doMath();// 40
+
+var y = 55;
+function doMath(){
+	console.log(y);
+}
+//55
+
