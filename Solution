@@ -13,3 +13,26 @@ function doMath(){
 }
 //55
 
+
+//  Example outsida and inside function scope
+var word = "Hello there!"
+
+function saySomething(){
+	var word = "See you!";
+	console.log(word);
+}
+// saySomething()//See you!
+// word//"Hello there!"
+
+// Scope explanation example;
+function hey(){
+	var name = "Maks";
+	console.log(name);
+}
+//hey() will Maks
+function bye(){
+	console.log(name);
+}
+//bye() will 
+undefined
+
